@@ -11,6 +11,8 @@ export default function Document() {
 
   const documentStatus = documents[currentDocument - 1] ? true : false;
 
+  window.scrollTo(0 , 0)
+
   if (documentStatus) {
     return (
       <>
